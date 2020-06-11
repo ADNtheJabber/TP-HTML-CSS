@@ -1,54 +1,116 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
-    background-color: white;
+    font-family: "Raleway", sans-serif;
+    background-image: url("img/bkgd.png");
 }
-#titre {
-    margin-left: 80px;
-    margin-top: 30px;
-    color: black;
-    font-weight: bold;    
+/* --- Menu --- */
+.header {
+    display: block;
+    margin: 10px 80px 10px;
 }
-ul { 
-    margin-top: 0px;
-    margin-right: 80px;
+.logo {
+    color: white;
+    line-height: 100px;
+    float: left;
+    
+}
+.menu {
     float: right;
-    list-style-type: none;
+    line-height: 100px;
 }
-ul a {
-    text-align: left;
-    margin-left: 15px;
-    color: black;
+.menu a {
+    color: white;
     text-decoration: none;
+    padding: 0 10px;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+.menu a:hover {
+    color: green;
 }
 .tiretMenu {
-    margin-top: auto;
+    margin-top: 0px;
     line-height: normal;
     width: 1200px;
 }
+/* --- TP Dev Web : HTML CSS --- */
 #tp{
     text-align: center;
     font-weight: bold;
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
+/* --- Rubriques HTML Body --- */
 .rubriques {
-    margin: 30px 200px 75px 200px;
+    margin: 50px 220px 75px;
     display: flex;
+  
+}
+.verticalLine {
+    margin: 20px 70px 0px;
+    height: 100px;
+}
+.rubriques #analysis {
+    display: block;
+}
+.rubriques #analysis i {
+    align-content: center;
     justify-content: center;
 }
-h2 p{
-    text-align: center;
+.rubriques #analysis h2 {
     text-decoration: none;
-}
-.analysis .developpement .debugging {
-    
+    text-transform: uppercase;
     text-align: center;
 }
-button {
-    display: inline;
-    position: relative;
+.rubriques #analysis p {
+    text-decoration: none;
+    text-align: center;
+}
+.rubriques #developpement {
+    display: block;
+}
+.rubriques #developpement h2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.rubriques #developpement p {
+    text-decoration: none;
+    text-align: center;
 }
 
+.rubriques #debugging {
+    display: block;
+}
+.rubriques #debugging h2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.rubriques #debugging p {
+    text-decoration: none;
+    text-align: center;
+}
 
+/* --- Bouton GetStarted --- */
+.start {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border-color: green;   
+}
+.start:hover {
+    border-color: white;
+    color: white;
+}
+.start input {
+    block-size: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: green;
+    background-color: black;   
+}

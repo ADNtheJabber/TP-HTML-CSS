@@ -5,43 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
     <title>SimplonBriefOne</title>
 </head>
 <body>
-   
-    <p id="titre">P3 Dev Web Mobile</p>
-        <ul>
+   <div class="header">
+        <h2 class="logo">P3 Dev Web Mobile</h2>
+        <ul class="menu">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
         </ul>
-        
+    </div>  
     <hr class="tiretMenu">
     <div class="content">
        <p id="tp">TP Dev Web : HTML CSS</p>
         <div class="rubriques">
-            <div class="analysis">
-                <i class="fa fa-bars" style="font-size:48px;color: green"></i>
+            <div id="analysis">
+                <p><i class="fa fa-bars" style="font-size:35px;color: green"></i></p>                
                 <h2>analysis</h2>
                 <p>Suspendisse amet allamco</p>
             </div>
             <hr class="verticalLine">
-            <div class="developpement">
-                <i class="fa fa-laptop" style="font-size:48px;color: green"></i>
+            <div id="developpement">
+                <p><i class="fa fa-laptop" style="font-size:35px;color: green"></i></p>
                 <h2>developpement</h2>
                 <p>class aptent taciti ad litora</p>
             </div>
             <hr class="verticalLine">
-            <div class="debugging">
-                <i class="fa fa-bug" style="font-size:48px;color: green"></i>
+            <div id="debugging">
+                <p><i class="fa fa-bug" style="font-size:35px;color: green"></i></p>
                 <h2>debugging</h2>
                 <p>Nulla vitae mauris non felis</p>
             </div>
         </div>
-        
-            <input type="button" value="Get started" />
-         
+    </div>
+    <div class="start">
+        <input type="button" name="boutonStart" class="start" value="Get started" />
     </div>
 </body>
 </html>
